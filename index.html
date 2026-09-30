@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nikkis-date</title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <div id="app"></div>
+    <pre id="err" style="position:fixed;z-index:99;left:0;top:0;right:0;background:#900;color:#fff;font:12px monospace;padding:8px;white-space:pre-wrap;display:none"></pre>
+    <script>
+      const box = document.getElementById('err');
+      const show = (msg) => { box.style.display = 'block'; box.textContent += msg + '\n'; };
+      window.addEventListener('error', (e) => show('ERROR: ' + (e.message || e.error) + '\n  at ' + (e.filename || '?') + ':' + (e.lineno || '?')));
+      window.addEventListener('unhandledrejection', (e) => show('REJECT: ' + e.reason));
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
