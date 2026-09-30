@@ -1,9 +1,14 @@
 # Nikki's Date
 This was me trying out what I could do with three.js so I made a really small game.
 
-here's a demo of my game.
+Here's a preview of my game.
 ![Title](https://user-cdn.hackclub-assets.com/01a0f3cf-e1b8-74b7-81cc-df7decdd55a1/New%20File%20at%20_%20%C2%B7%20LWLupus_Nikki-s-Date%20-%20Brave%209_30_2026%2010_33_48%20PM.png)
 ![Demo gif](https://user-cdn.hackclub-assets.com/01a0f3cd-46cf-7701-a405-6eaddccadef5/ezgif-401848100eaecd8b.gif)
+
+
+## Here is a Demo of my game.
+https://nikki-s-date.vercel.app/
+
 
 ## HOW THIS WAS MADE
 
