@@ -20,7 +20,7 @@ git clone https://github.com/LWLupus/Nikki-s-Date.git
 npm install
 ```
 
-3. Start the development server on `localhost:4321`
+3. Start the development server on `localhost:5173`
 ```sh
 npm run dev
 ```
